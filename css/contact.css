@@ -1,0 +1,72 @@
+.weblogo {
+    width: 65px;
+    display: block;
+}
+
+.moblogo {
+    display: none;
+}
+
+
+.a {
+
+    background: yellow !important;
+    height: 150px;
+    overflow: hidden;
+}
+
+.b {
+    width: 300px;
+    height: 85px;
+    background: orange;
+    margin-left: 30px;
+}
+
+.c {
+    position: relative;
+    left: 210px;
+    top: -35px;
+    color: lightgreen;
+
+}
+
+.d {
+    border: none;
+    background: none;
+    margin: -51px 0 0 186px;
+    color: #1d2f42;
+}
+
+.e {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 418px;
+    bottom: 55px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3f6981;
+    text-transform: capitalize;
+}
+
+.f {
+    position: relative;
+    left: 246px;
+    top: -38px;
+    border-radius: inherit;
+}
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #6274b2 !important;
+    }
+}

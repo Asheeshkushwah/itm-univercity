@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="../itm univercity/css/home.css">
+    <style>
+        .weblogo {
+            width: 70px;
+
+        }
+
+        .moblogo {
+            display: none;
+        }
+
+        .navbar {
+            background: rgb(32, 25, 25) !important;
+        }
+
+        .navbar-nav li {
+            padding: 0 25px;
+
+
+        }
+
+        .navbar-nav li a {
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .a {
+            line-height: 35px;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            padding-right: 5px;
+            text-align: justify;
+        }
+
+
+
+        .b {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../image/18-SM449567.jpg);
+            width: 100%;
+            height: 500px;
+
+
+        }
+
+        .c {
+            color: white;
+            font-weight: 200;
+            font-family: math;
+            text-align: center;
+            line-height: 310px;
+        }
+
+        .d {
+            width: 145px;
+            height: 150px;
+            text-align: center;
+            margin-top: -296px;
+            background: white;
+            margin-left: 162px;
+
+        }
+
+        .e {
+            border: 2px solid rgb(144, 170, 183);
+            text-align: center;
+            width: 250px;
+            margin-left: 40px;
+        }
+
+
+
+        @media(max-width:768px) {
+            .moblogo {
+                display: block;
+            }
+
+            .weblogo {
+                display: none;
+            }
+
+            .navbar {
+                background: hsl(227, 41%, 68%) !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2016/04/logo2rat.png" alt="" class="weblogo">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.CeUz9TM-AInWKJNlAj3AWwHaHa&pid=Api&P=0&h=180" alt=""
+                    class="moblogo" style="width: 70px;">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#si">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse menu" id="si">
+                <ul class="navbar-nav ms-auto text-center" style="text-transform: capitalize;">
+                    <li><a href="http://127.0.0.1:5501/home.html" class="nav-link">home</a></li>
+                    <li><a href="http://127.0.0.1:5503/about.html" class="nav-link">about</a></li>
+                    <li><a href="http://127.0.0.1:5503/programmes.html" class="nav-link">programmes</a></li>
+                    <li><a href="http://127.0.0.1:5503/addmission.html" class="nav-link">admission</a></li>
+                    <li><a href="http://127.0.0.1:5503/contact.html" class="nav-link">contact</a></li>
+                </ul>
+            </div>
+
+        </div><!--container end-->
+    </nav>
+    <!--navbar end-->
+
+    <!--slider div start-->
+    <div class="carousel slide" data-bs-ride="carousel" id="ash">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#ash" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#ash" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#ash" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#ash" data-bs-slide-to="3" class="active"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2023/06/slider18-min.jpg" alt="" class="w-100"
+                    style="background-image: position-fixed;">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images.collegedunia.com/public/college_data/images/appImage/57898_build.png?mode=stretch"
+                    alt="" class="w-100">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/14181175861.JPG "
+                    alt="" class="w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2024/04/Slider-1281x581-px-e1714477553781.jpg"
+                    alt="" class="w-100">
+            </div>
+
+        </div><!--carousel-inner- end-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!--slider div end-->
+
+    <!--container div start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="mt-5" style="text-transform: capitalize;">welcome to itm university</h2>
+                <p class="a">
+                    Welcome to ITM University Gwalior
+                    You’re probably already aware that ITM University Gwalior is one of the best universities in India
+                    in terms of its academic reputation and infrastructure, but did you also know:
+                    <br>
+                    ITM University Gwalior offers virtually unlimited opportunities for inquiry, discovery, and
+                    education with uniquely crafted educational programmes — and yet is a close community that provides
+                    a real sense of belonging. Here it is like playing under the most inspiring captain who brings his
+                    team together and infuses it with a great sense of energy and motivation during all times. ITM
+                    University is a multidisciplinary university known for its quality of research and teaching across
+                    the academic spectrum, with subjects spanning the sciences, engineering, management, fine arts,
+                    social sciences, arts, nursing etc.
+                </p>
+                <button class="btn btn-secondary btn-lg">read more...</button>
+            </div>
+        </div><!--row end-->
+    </div>
+    <!--contaner end-->
+
+    <!--container start-->
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col-md-3 img">
+                <img src="https://images.pexels.com/photos/3431444/pexels-photo-3431444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3 img">
+                <img src="https://images.pexels.com/photos/159490/yale-university-landscape-universities-schools-159490.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3 img">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.gsb1vDtqfyqFAHc-8LhdUgHaE8&pid=Api&P=0&h=180" alt=""
+                    class="w-100">
+            </div>
+
+            <div class="col-md-3 img">
+                <img src="https://images.pexels.com/photos/1106468/pexels-photo-1106468.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="" class="w-100">
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--container start-->
+    <div class="container ">
+        <div class="row">
+
+            <div class="col-md-3 mt-3 img">
+                <img src="https://www.vmcdn.ca/f/files/glaciermedia/import/lmp-all/1046823-univercity02.jpg;w=960"
+                    alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3  mt-3 img">
+                <img src="https://wallpapercave.com/wp/2w9pZKq.jpg" alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3 mt-3 img">
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+                    alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3 mt-3 img">
+                <img src="https://www.miltonoxfordshire.co.uk/wp-content/uploads/2019/09/Oxford-University-Walking-Tour.jpg"
+                    alt="" class="w-100">
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--container start-->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3 mt-3 img">
+                <img src="https://wallpaperaccess.com/full/2137304.jpg" alt="" class="w-100 img">
+            </div>
+
+            <div class="col-md-3  mt-3 img">
+                <img src="https://images.pexels.com/photos/1708988/pexels-photo-1708988.jpeg" alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3 mt-3 img">
+                <img src="https://images.pexels.com/photos/518244/pexels-photo-518244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" class="w-100">
+            </div>
+
+            <div class="col-md-3 mt-3 img">
+                <img src="https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="" class="w-100">
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+    <br>
+
+    <!--container start-->
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-"></div>
+            <div class="col-md-12 b">
+                <h1 class="c">
+                    Record placements on a single day by MNCs in North-Central India <br>
+                </h1>
+            </div>
+            <div class="col-md-">
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--containetr start-->
+    <div class="container-fluid">
+
+        <div class="row ">
+            <div class="col-md-3 d ">
+                <h2>
+                    <i class="fa-solid fa-person-chalkboard" style="line-height: 60px;"></i>
+                    <p><b style="color: orange;">8000</b>
+                        <br>
+                    <p style="font-size: 25px;">student</p>
+                    </p>
+                </h2>
+            </div>
+            <br>
+            <div class="col-md-3 d">
+                <h2>
+                    <i class="fa-brands fa-readme"></i>
+                    <p><b style="color: orange;">950</b>
+                    <p style="font-size: 25px;">publication</p>
+                    </p>
+                </h2>
+            </div>
+
+            <div class="col-md-3 d">
+                <h2>
+                    <i class="fa-solid fa-book"></i>
+                    <p><b style="color: orange;">50678</b>
+                    <p>
+                    <p style="font-size: 21px;"> placement
+                        <br>
+                        opportunities
+                    </p>
+                    </p>
+                    </p>
+                </h2>
+            </div>
+
+            <div class="col-md-3 d">
+                <h2>
+                    <i class="fa-solid fa-film"></i>
+                    <p><b style="color: orange;">450</b>
+                    <p>
+                    <p style="font-size: 21px;"> RECRUITERS
+                        <br>
+                    </p>
+                    </p>
+                    </p>
+                </h2>
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--container start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 e animate__animated  animate__zoomInUp" style="margin-left: 55px;">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2020/05/Siddhant-Katailiha-580x580.jpg" alt=""
+                    width="100px" class="mt-3">
+                <p class="mt-2">Siddhant Katailiha</p>
+                <b style="color: #4877b0;">TATA STEEL LIMITED</b>
+                <p class="mt-3" style="text-align: justify;">
+                    Life as a student at ITM University was a great experience for me. The faculty and the TAP Cell team
+                    played an essential part in nurturing my knowledge & skills and boosting my confidence. I am placed
+                    in TATA Steel Limited, which is like a dream for every mechanical engineering student. I am thankful
+                    to...
+                </p>
+            </div>
+            <div class="col-md-3 e animate__animated  animate__zoomInUp" style="margin-left: 10px;">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2016/04/DSC0121-min-580x580.jpg" alt=""
+                    width="100px" class="mt-3">
+                <p class="mt-2">MAHIMA</p>
+                <b style="color: #4877b0;">Cognizant</b>
+                <p class="mt-3" style="text-align: justify;">ITM is an awesome college. Its campus is a delight to see.
+                    The oppprtunities that this
+                    college provides actually deserves an eulogy. In my entire tenure, I have grown as a person and have
+                    gained individuality. I am happy to be a part of this college and take advantages of the trainings,
+                    extra curriculars, recruitments that it provides.</p>
+            </div>
+            <div class="col-md-3 e  animate__animated  animate__zoomInUp" style="margin-left: 10px;">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2016/04/prachi-gupta-min-580x580.jpg" alt=""
+                    width="100px" class="mt-3">
+                <p class="mt-2">Prachi</p>
+                <b style="color: #4877b0;">Infosys</b>
+                <p class="mt-3" style="text-align: justify;">“It gives me a complete satisfaction to be a part of an ITM
+                    University which is an
+                    incredible blend of professionalism, integrity and culture.It’s a pleasure to study under the
+                    guidance of renowned faculty with rich experience which gives gives us platform for successful
+                    career. I am thankful to TAP cell team for helping me...</p>
+            </div>
+            <div class="col-md-3 e animate__animated  animate__zoomInUp" style="margin-left: 10px;">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2020/05/YOJNA-KAFLAY-580x580.jpg" alt=""
+                    width="100px" class="mt-3">
+                <p class="mt-2"> Yojna kafle</p>
+                <b style="color: #4877b0;">JIGME DORJI <br>WANGCHUK NATIONAL <br> REFERRAL HOSPITAL</b>
+                <p class="mt-3" style="text-align: justify;">I am honoured to have had the opportunity to be a part of
+                    ITM University. The Institute
+                    has presented me with various opportunities, not just course based but has also allowed me to
+                    explore, exchange and experience some of diverse and beautiful culture of India. I am really
+                    grateful to have met some of the...</p>
+            </div>
+
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--container start-->
+    <div class="container-fluid mt-4 bg-primary" style="padding: 0 70px;">
+        <div class="row">
+            <div class="col-md-12 " style="padding: 15px;">
+                <marquee direction="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/12.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/8.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/9.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/12.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/4.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/5.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/3.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/7.jpg" alt="">
+                    <img src="https://itmuniversity.ac.in/wp-content/uploads/2015/08/2.jpg" alt="">
+                </marquee>
+            </div>
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--footer start-->
+
+    <div class="container-fluid bg-black mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="https://itmuniversity.ac.in/wp-content/uploads/2016/04/logo3.png" alt="" class="w-100 mt-2">
+                <p class="text-light mt-3" style="text-align: justify;">
+                    At ITM University Gwalior you get an opportunity to link your studies to your career
+                    plan and
+                    personal goals by using combination of compulsory credits, optional credits, self-learning
+                    credits,
+                    MOOC, non-cgpa credits for curricular and extra-curricular activities. Here you get enormous
+                    opportunity to share your ideas and domain expertise with industry leaders. Technically you can
+                    craft your own degree.
+                    <br>
+                    <b>DISCLAIMER:</b>
+                    <br>
+                    At ITM University Gwalior you get an opportunity to link your studies to your career plan and
+                    personal goals by using combination of compulsory credits, optional credits, self-learning
+                    credits.
+                </p>
+            </div>
+            <div class="col-md-3" style="margin-top: 162px;">
+                <h3 class="text-light" style="font-weight: 300;">about univercity</h3>
+                <ul class="text-light" style="line-height: 30px;">
+
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">award ranking</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">official</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">massage</a></li>
+
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">software development</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">jobs</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">programmes</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">blog</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">advisor</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="col-md-3 " style="margin-top: 162px;">
+                <h3 class="text-light" style="font-weight: 300;">stream</h3>
+                <ul class="text-light" style="line-height: 30px;">
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">engineering</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">management</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">bca</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">mca</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">b.sc</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">b.tech</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">m.tech</a></li>
+                    <li><a href="" style="text-decoration: none; color: antiquewhite;">Be</a></li>
+
+
+                </ul>
+            </div>
+
+            <div class="col-md-3 
+        " style="margin-top: 162px;">
+                <h3 class="text-light" style="font-weight: 300;">contact info</h3>
+                <ul class="text-light" style="line-height: 25px;">
+                    <p style="color:antiquewhite;">
+                        <i class="fa-brands fa-dribbble"></i>
+                        <a href="" style="text-decoration: none;color: antiquewhite;"> http://itmuniversity.ac.in/</a>
+                        <br>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="" style="text-decoration: none;color: antiquewhite;">admission@itmuniversity.ac.in</a>
+                        <br>
+
+
+                        <i class="fa-solid fa-mobile"></i>
+                        Call Us For more details:
+                        06264865609
+                        <br>
+                        <i class="fa-solid fa-mobile"></i>
+                        TAP CELL : 9691973919
+                        <br>
+                        <i class="fa-solid fa-mobile"></i>
+                        EXAM : +91-6260544885
+                        <br>
+
+                        <i class="fa-solid fa-mobile"></i>
+                        VC Office : +91-7770854333
+                        <br>
+                        <i class="fa-solid fa-mobile"></i>
+                        DR Office : +91-9399405170
+                        <br>
+                        <i class="fa-solid fa-location-dot"></i>
+                        NH-44,BypassTurari,
+                        Jhansi Road Gwl (M.P.)
+                        475001,(INDIA)
+                    </p>
+
+
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/ITM_University_Gwalior_Logo.png" alt=""
+                        class="w-100" style="margin-left: -145px;">
+                </ul>
+            </div>
+            <hr class="text-light">
+        </div><!--row end-->
+    </div><!--container fluid end-->
+
+
+    <!--container start-->
+    <div class="container-fluid bg-black">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h3 class="text-light">$2024 Itm univercity</h3>
+            </div>
+
+            <div class="col-md-3">
+                <a href="" style="text-decoration: none; color: aqua; font-size: 40px;"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="" style="text-decoration: none; color:rgb(220, 154, 32);  font-size: 40px;"> <i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="" style="text-decoration: none; color:rgb(189, 17, 137);  font-size: 40px;"> <i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="" style="text-decoration: none; color:rgb(32, 145, 183);  font-size: 40px;"> <i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="" style="text-decoration: none; color:rgb(57, 32, 220);  font-size: 40px;"><i
+                        class="fa-brands fa-github"></i></a>
+            </div>
+
+        </div><!--row end-->
+    </div><!--container end-->
+
+    <!--footer end-->
+</body>
+
+</html>

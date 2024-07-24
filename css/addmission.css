@@ -1,0 +1,30 @@
+.weblogo {
+    width: 70px;
+
+}
+
+.moblogo {
+    display: none;
+}
+
+.a {
+    background-color: black !important;
+}
+
+
+
+
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #6274b2 !important;
+    }
+}

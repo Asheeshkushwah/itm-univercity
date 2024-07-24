@@ -1,0 +1,26 @@
+.weblogo {
+    width: 70px;
+
+}
+
+.moblogo {
+    display: none;
+}
+
+
+
+
+
+@media(max-width:768px) {
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: #6274b2 !important;
+    }
+}
